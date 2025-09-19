@@ -1,8 +1,6 @@
-import random
-yourNumber = int(input("enter a number from 1 and 10: "))
-randomNumber = random.randint(1, 10)
-
-if yourNumber == randomNumber:
-    print("you win!!!!!!")
-else:
-    print("you lose! the correct number was " + str(randomNumber))
+nums = [1,2,3,4,5]
+print(nums)
+print(id(nums))
+nums[4] = 6
+print(nums)
+print(id(nums))
