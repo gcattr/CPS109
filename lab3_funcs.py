@@ -19,7 +19,7 @@ def lettergrade(pct):
     0  to 49  = F
 
     If the value of pct is outside this range, return None.
-
+    
     '''
     
     if 100 >= pct >= 80:
@@ -249,8 +249,8 @@ def calculator(op1, op2, operator):
         return op1 / op2
     elif operator == "**":
         return op1 ** op2
-    
     return # replace 'pass' with a return statement.
     
     
         
+
